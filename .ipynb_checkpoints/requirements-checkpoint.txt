@@ -1,0 +1,9 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+tqdm
+docker
+statsmodels==0.14.2
+pmdarima==2.0.4
