@@ -7,12 +7,10 @@ RUN apt-get update && apt-get install -y python3-pip
 # Set the working directory
 WORKDIR /home
 
-# Copy the requirement.txt, README files
-COPY requirement.txt .
-COPY README.md .
+COPY requirements.txt /home/
 
 # Install all requirement.txt
-RUN pip install -r requirement.txt
+RUN pip install -r requirements.txt
 
 # Install jupyter-lab
 RUN pip install jupyterlab
