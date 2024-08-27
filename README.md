@@ -19,7 +19,7 @@ curl http://localhost:1000/isAlive
 This can also be checked in the browser in the following way: http://127.0.0.1:8888/lab?token=fe8cb26d94e432f74bab11d288f263d035813a07dbadd196
 
 
-If you get **true** in return, TimeSeries Forecasting system is working and can be access throught *curl or web browser*
+If you get **true** in return, TimeSeries Forecasting system is working and can be accessed throught *curl or web browser*
 
 ![Terminal Output](https://github.com/Venkata-Ch/Time_Series_Forecasting_Prediction/blob/76cb3b34287fa16865262d876238d9ce35b43daf/Screenshots/Screenshot%20from%202024-07-24%2011-38-46.png)
 
